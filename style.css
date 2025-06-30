@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:border-box;
+    font-family: Arial;
+}
+.div1{
+    width:100%;
+    height:35px;
+    font-size: 9px;
+    background-color: rgb(28, 23, 120);
+    color:aliceblue;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+.photo{
+    display:flex;
+    justify-content:center;
+    gap:2%;
+    margin-top: 30px;
+    }
+#stone{
+    height:77px;
+    width:100%;
+    border-radius:100%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#stone:hover{
+    height:82px;
+    opacity:1 ;
+}
+#paper{
+    height:80px;
+    width:100%;
+    border-radius: 100%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#paper:hover{
+    height:83px;
+    opacity:1 ;
+}
+#scissor:hover{
+    height:73px;
+    opacity:1 ;
+}
+
+#scissor{
+    height:70px;
+    width:100%;
+    border-radius: 100%;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    border:2.5px solid black;
+    cursor: pointer;
+}
+.score-board{
+    display:flex;
+    gap:20px;
+    margin-top:10px;
+    justify-content: center;
+    text-align: center;
+    font-size:15px;
+    font-weight: 400;
+    color:black;
+    cursor: pointer;
+}
+.usc,.csc{
+    margin-left:23px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.gap{
+    height:10%;
+    width:100%;
+    background-color:white;
+}
+.finalscore{
+    height:40px;
+    width:100%;
+    background-color:  rgb(28, 23, 120);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: aliceblue;
+    
+
+}
+.div{
+    width: 80%;
+    padding-left:10%;
+    padding-right: 10%;
+}
+.rock{
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(28, 23, 120);
+}
+.para{
+    font-size: small;
+    color: black;
+    text-align: center;
+}
+.paras{ color: black;
+    font-weight: 700;
+    font-size: small;
+    text-align: center;
+
+}
+.owner{
+    width:100%;
+    flex: end;
+    font-weight: 800;
+    text-align: end;
+    color:rgb(58, 42, 165);
+}
+.niche{
+    background-image:linear-gradient(white,rgb(126, 126, 200));
+}
+.back{
+    background-image:linear-gradient(rgb(85, 80, 184),white);
+    width:100%;
+    height:230px;
+
+}
+.us{
+    font-weight:900;
+    height:100px;
+}
+video{
+    width:80%;
+    padding-right: 10%;
+    padding-left:10%;
+    padding-top:3%;
+    padding-bottom:3%;
+    height:200px;
+    }
+.khas{
+    width:100%;
+    
+}
+iframe{
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 3%;
+    padding-bottom:3%;
+
+
+}
